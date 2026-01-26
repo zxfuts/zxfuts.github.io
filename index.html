@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZXFUT FC</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics (substitua G-XXXXXXXXXX pelo seu ID GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+  <header>
+    <h1>ZXFUT FC</h1>
+    <p>Gerador de ideias aleatórias para o Modo Carreira do EA FC</p>
+  </header>
+
+  <main>
+    <button onclick="gerarIdeia()">Gerar ideia</button>
+
+    <div class="card">
+      <h2 id="titulo">Clique no botão</h2>
+      <p id="descricao"></p>
+      <button id="copiarBtn">Copiar ideia</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>ZXFUT FC é um site independente criado por fãs. Não é afiliado, patrocinado ou aprovado pela Electronic Arts Inc.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
